@@ -4,7 +4,7 @@ import numpy as np
 from bs4 import BeautifulSoup
 import urllib
 import re
-
+## This scrapper get all the infor :name, adress, reviews of 1 url at 1st page
 
 class scrape_infor (object):
     def __init__(self, url):
